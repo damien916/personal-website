@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 
 const Link = styled.a.attrs({ target: "_blank" })`
   color: #2c3e50;
-  transition: 300ms;
+  transition: 300ms ease-in-out;
 
   &:hover {
     color: #16a085;
@@ -25,13 +25,13 @@ const Link = styled.a.attrs({ target: "_blank" })`
 export default function Contact() {
   return (
     <Wrapper>
-      <Link href="https://fr.linkedin.com/in/damienvirlouvet">
+      <Link title="LinkedIn" href="https://fr.linkedin.com/in/damienvirlouvet">
         <Linkedin />
       </Link>
-      <Link href="https://twitter.com/damien916">
+      <Link title="Twitter" href="https://twitter.com/damien916">
         <Twitter />
       </Link>
-      <Link href="https://github.com/damien916">
+      <Link title="Github" href="https://github.com/damien916">
         <Github />
       </Link>
     </Wrapper>
