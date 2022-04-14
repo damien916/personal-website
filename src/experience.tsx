@@ -55,10 +55,7 @@ export default function Experience() {
   return (
     <>
       <Wrapper>
-        <Logo
-          src="https://media-exp1.licdn.com/dms/image/C560BAQEbRFRvTT57vg/company-logo_100_100/0/1626077349867?e=1642032000&amp;v=beta&amp;t=f_SH0LXelXcMGGhQHZXsguHIGazRdiZWN0UNzMttcXw"
-          alt="Swapcard"
-        />
+        <Logo src="images/swapcard.jpg" alt="Swapcard" />
         <Position>Frontend developer / Swapcard</Position>
         <Date>Full remote / 2018 - now</Date>
         <Job>
@@ -74,10 +71,7 @@ export default function Experience() {
         </Stack>
       </Wrapper>
       <Wrapper>
-        <Logo
-          src="https://media-exp1.licdn.com/dms/image/C560BAQHmwbbhcAwTKQ/company-logo_100_100/0/1595231957013?e=1642032000&amp;v=beta&amp;t=gjakIhInStbg3OpURw2zJI6vzR7LaqyN_emqM83VfLM"
-          alt="Hexanet"
-        />
+        <Logo src="images/hexanet.jpg" alt="Hexanet" />
         <Position>Frontend developer / Hexanet</Position>
         <Date>Le Mans / 2016 - 2018</Date>
         <Job>I worked for a final customer on a B2B e-commerce application</Job>
