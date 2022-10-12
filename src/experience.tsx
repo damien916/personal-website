@@ -56,14 +56,14 @@ export default function Experience() {
     <>
       <Wrapper>
         <Logo src="images/swapcard.jpg" alt="Swapcard" />
-        <Position>Frontend developer / Swapcard</Position>
+        <Position>Frontend Engineering Manager / Swapcard</Position>
         <Date>Full remote / 2018 - now</Date>
         <Job>
           All-in-one virtual &amp; hybrid events platform. I work on the three
           web applications, designed for event organizers, exhibitors and
           attendees.
           <br />
-          Tech team is organized in squads, using agile method.
+          Tech team is organized in tribes + squads, using agile method.
         </Job>
         <Stack>
           Technical stack: React, Typescript, GraphQL, Apollo, NextJS,
